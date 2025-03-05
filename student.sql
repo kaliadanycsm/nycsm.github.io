@@ -2,10 +2,10 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:3306
--- Generation Time: Feb 27, 2025 at 03:54 AM
--- Server version: 10.11.10-MariaDB-log
--- PHP Version: 7.2.34
+-- Host: 127.0.0.1
+-- Generation Time: Mar 05, 2025 at 04:31 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `u104732813_student`
+-- Database: `student`
 --
 
 -- --------------------------------------------------------
@@ -394,7 +394,13 @@ INSERT INTO `user` (`id`, `username`, `password`, `f_name`, `m_name`, `dob`, `mo
 (175, 'SARASWATI MODAK', 'INDWB2400711', 'SRISTIDHAR MODAK', '', '2024-06-14', 0, '', 0, 53754, '2024-06-14', 'DCA', 0, 0, 300, 0, 0, 0, 0, 300),
 (176, 'KRISHNA MANDI', 'INDWB2301666', 'GOUR MANDI', '', '2024-06-14', 0, '', 0, 796303, '2024-06-14', 'DCA', 0, 0, 300, 0, 0, 0, 0, 300),
 (177, 'RUBI MODAK', 'INDWB2400710', 'GOUTAM MODAK', '', '2024-06-18', 0, '', 0, 322796, '2024-06-18', 'DCA', 0, 0, 300, 0, 0, 0, 0, 300),
-(178, 'ISHA DEOGHARIA', 'INDWB2400292', 'SADANANDA DEOGHARIA', '', '2024-06-18', 0, '', 0, 182403, '2024-06-18', 'DCA', 0, 0, 300, 0, 0, 0, 0, 300);
+(178, 'ISHA DEOGHARIA', 'INDWB2400292', 'SADANANDA DEOGHARIA', '', '2024-06-18', 0, '', 0, 182403, '2024-06-18', 'DCA', 0, 0, 300, 0, 0, 0, 0, 300),
+(179, 'PENAMI TUDU', 'NA', 'KAMALAKANTA TUDU', '', '2025-02-28', 0, '', 0, 839024, '2025-02-28', 'DCA', 500, 0, 0, 0, 0, 0, 0, 500),
+(180, 'ANITA MURMU', 'NA', 'SHYAMAPADA MURMU', '', '2025-02-28', 0, '', 0, 754974, '2025-02-28', 'DCA', 500, 0, 0, 0, 0, 0, 0, 500),
+(181, 'TRISHANJIT BESRA', 'NA', 'TARAPADA BESRA', '', '2025-02-28', 0, '', 0, 883411, '2025-02-28', 'DCA', 500, 0, 0, 0, 0, 0, 0, 500),
+(182, 'JHARNA HANSDA', 'NA', 'SIDDHESWAR HANSDA', '', '2025-03-01', 0, '', 0, 600548, '2025-03-01', 'DCA', 500, 0, 0, 0, 0, 0, 0, 500),
+(183, 'SOMNATH MANDAL', 'NA', 'KANAILAL MANDAL', '', '2025-03-04', 0, '', 0, 956358, '2025-03-04', 'DCA', 500, 0, 0, 0, 0, 0, 0, 500),
+(184, 'SANCHITA MANDAL', 'NA', 'TARAPADA MANDAL', '', '2025-03-05', 0, '', 0, 886070, '2025-03-05', 'DCA', 500, 0, 0, 0, 0, 0, 0, 500);
 
 --
 -- Indexes for dumped tables
@@ -486,7 +492,7 @@ ALTER TABLE `result`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=179;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=185;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
